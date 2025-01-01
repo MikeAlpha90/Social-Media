@@ -1,0 +1,110 @@
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+}
+.topbarLeft{
+    flex: 3;
+    display: flex;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+    
+}
+.topbarCenter{
+    flex: 5;
+}
+.searchBar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+.searchIcon:hover{
+    transform: scale(1.1);
+}
+.searchInput{
+    width: 70%;
+    border: none;
+}
+.searchInput:focus{
+    outline: none;
+}
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.topbarLinks{
+    display: flex;
+}
+.topbarLink{
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+.topbarLink:hover{
+    transform: scale(1.1);
+}
+.topbarIcons{
+    display: flex;
+}
+.topbarIconItem{
+    margin-left: 15px;
+    cursor: pointer;
+    position: relative;
+    transition: transform .3s ease;
+}
+.topbarIconItem:hover{
+    transform: scale(1.1);
+}
+.topbarIconBadge{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+}
+.topbarImg{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform .3s ease;
+}
+.topbarImg:hover{
+    transform: scale(1.1);
+}
